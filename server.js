@@ -6,6 +6,10 @@ const connectDB = require("./config/db");
 
 connectDB();
 
+// Init BodyParser :
+
+app.use(express.json({ extended: false }));
+
 app.get("/", (req, res) => res.send("API Running"));
 
 // Define Routes :
