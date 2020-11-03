@@ -1,4 +1,6 @@
 {
     "mongoURI" : "mongodb+srv://admin:Mati.38598263@devconnector.id1yo.mongodb.net/devconnector?retryWrites=true&w=majority",
-    "jwtSecret" : "mysecrettoken"
+    "jwtSecret" : "mysecrettoken",
+    "githubClientId" : "172a442143e8958024a8",
+    "githubSecret": "47b2adc576023413e473850ef5413572f14f24c2"
 }
